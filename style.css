@@ -1,0 +1,214 @@
+
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.Navbar{
+	height: 40px;
+   	background-image: url("img/navbar.jpg");
+  	box-shadow: inset 0 0 8px 2px #282a2d;
+  	letter-spacing: 7px;
+  	font-size: 30px;
+  	background-color:black;
+  	padding: 10px;
+  	text-shadow: 0.1em 0.1em 0.05em #333
+	overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1;
+  	
+
+}
+
+  .Menu {
+  	float: right;
+  	letter-spacing: 5px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	margin-right: 20px;
+
+
+  }
+
+/* linki */
+.container>.Navbar>.Naglowek>.Menu>a { 
+ color: black;
+ text-decoration: none;
+}
+
+
+
+#header {
+	
+	font-family: "Lato", sans-serif;
+    line-height: 1.8;
+    background-color: lightblue;
+    overflow: hidden;
+    background-image: url("img/ciacho.jpeg");
+    width: 1922px;
+    height: 1080px;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    }
+/* napis na header */
+
+.Napis {
+    letter-spacing: 10px;
+    color:  grey;
+	font-family: 'Pacifico', cursive;
+	vertical-align : bottom;
+	font-size: 50px;
+	margin-top: 70%;
+	margin-left: 5%;
+	text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+
+
+.container>.Navbar>.Naglowek>.Menu>a:hover { 
+ color: grey;
+ font-weight:bold;
+}
+/*sekcja o mnie */ 
+
+#Omnie {
+	background-color:  #fff5ff;
+	height: 100vh;
+	overflow: hidden;
+
+} 
+
+/*pierwsze zdjecie */ 
+.ciastka { 
+	float: left; 
+	padding: 10px;
+	border: 0px;
+	width:500px;
+	height:600px;
+
+
+}
+  
+ .ciastka:hover { 
+ 	opacity:0.7;
+	filter:alpha(opacity=50); 
+}
+
+
+
+ p, h1 {
+	  
+	padding-left: 5px;
+	color: black;
+	text-align: center;
+	padding-left: 50px;
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center
+
+ }
+
+
+/*sekcja Projekty*/ 
+
+
+#Projekty {
+
+	background-image: url("img/projektytlo.jpg");	
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	
+	overflow: hidden;
+	clear: both
+}
+
+/*drugie zdjecie */ 
+.stol {
+float: right; 
+padding: 10px;
+border: 0px;
+width:100%  
+height: auto;
+margin-top: 150px;
+margin-bottom: 150px;
+}
+
+
+
+.stol:hover { 
+-o-transition: all 0.6s;
+-moz-transition: all 0.6s;
+-webkit-transition: all 0.6s;
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+
+	
+}
+
+.maleprojekty {height: 100%
+	width:100px
+	padding: 10px;;
+
+}
+h3 {font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+text-align: center
+}
+.obrazki
+{width: 420px;
+height: 320px;
+float: left;
+padding: 10px;
+-o-transition: 1s ease-in-out;
+transition: 1s ease-in-out;
+}
+.obrazki:hover{
+-moz-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+
+    -o-transform: rotate(20deg);
+
+    -ms-transform: rotate(20deg);
+
+    transform: rotate(20deg);
+    z-index: 1;
+
+
+}
+
+.tlo2 { 
+	font-family: "Lato", sans-serif;
+    line-height: 1.8;
+    background-color: lightblue;
+    overflow: hidden;
+    background-image: url("img/tlo2.jpeg");
+    width: 1922px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.texttlo2 {
+	text-align: center;
+    margin-top: 300px;
+   font-size: 80px;
+}
+
+.map {
+
+font-size: 50px;
+justify-content: center;
+flex-direction: column;
+margin: 0 auto 0 auto;
+text-align: center;
+   }
