@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	font-family: 'Open Sans Condensed', sans-serif;
 
+
 }
 .Navbar{
 	height: 40px;
@@ -19,6 +20,7 @@ body {
     top: 0; 
     width: 100%; 
     z-index: 1;
+
   	
 
 }
@@ -37,6 +39,7 @@ body {
 .container>.Navbar>.Naglowek>.Menu>a { 
  color: black;
  text-decoration: none;
+
 }
 
 
@@ -123,10 +126,9 @@ body {
 
 	background-image: url("img/projektytlo.jpg");	
 	background-repeat: no-repeat;
- 	background-size: 100% 100%;
-	
+ 	background-size: 100%;
 	overflow: hidden;
-	clear: both
+	clear: both;
 }
 
 /*drugie zdjecie */ 
@@ -158,9 +160,10 @@ margin-bottom: 150px;
 	padding: 10px;;
 
 }
+
 h3 {font-size: 40px;
 	font-family: 'Amatic SC', cursive;
-text-align: center
+	text-align: center
 }
 .obrazki
 {width: 420px;
@@ -170,16 +173,14 @@ padding: 10px;
 -o-transition: 1s ease-in-out;
 transition: 1s ease-in-out;
 }
+
 .obrazki:hover{
 -moz-transform: rotate(20deg);
 -webkit-transform: rotate(20deg);
-
-    -o-transform: rotate(20deg);
-
-    -ms-transform: rotate(20deg);
-
-    transform: rotate(20deg);
-    z-index: 1;
+-o-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+transform: rotate(20deg);
+z-index: 1;
 
 
 }
@@ -212,3 +213,61 @@ flex-direction: column;
 margin: 0 auto 0 auto;
 text-align: center;
    }
+#formularz {
+        width:260px; 
+        margin:0 auto; 
+        background-color:#fff; 
+        border:2px solid #ccc; 
+        border-radius:10px; 
+		padding:20px; 
+        margin-top:20px; 
+}
+
+#formularz label {
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold; 
+    text-transform: uppercase; 
+    font-size:12px; 
+    color:#555555; 
+}
+
+#formularz textarea,
+#formularz input {
+	padding:5px; 
+	border-radius:3px; 
+	border:1px solid #ccc; 
+	margin-bottom:25px; 
+	width:245px; 
+}
+
+#formularz input#submit {
+	width:255px; 
+	cursor:pointer; 
+	margin-bottom:0px;
+}
+
+#formularz p.copy {
+	color:#555555; 
+	margin-bottom:0px; 
+	font-size:12px; 
+	text-align: center; }
+
+
+#formularz p.copy a {
+	color:#555555;
+	text-decoration: none; 
+	font-weight:bold; 
+}  
+.footer {
+    background-color: orange;
+    left: 0;
+    bottom: 0;
+    font-size: 40px;
+    height: 100%;
+ 	width: 100%;
+  	font-size: 30px;
+    }
+  h1.footer {
+  	margin: 10px;
+  }
